@@ -1,0 +1,19 @@
+Truncate or Not? A Scaling Study of Looped Transformers with Truncated Backpropagation
+Copyright (c) 2026 the authors. Released under the MIT License (LICENSE).
+
+This repository contains material derived from the following projects.
+
+kschwethelm/looped-lm-scaling (https://github.com/kschwethelm/looped-lm-scaling)
+  Copyright (c) 2026 Kristian Schwethelm. MIT License, see third_party/looped-lm-scaling.LICENSE.
+  - src/looptf/optim/muonh.py is adapted from nanochat/optim.py (MuonH with the Polar Express iteration).
+  - The transformer block, its initialization, the training recipe and the HyperP learning-rate transfer
+    (src/looptf/model/, src/looptf/recipe.py) reimplement nanochat/gpt.py and scripts/base_train.py, and the
+    test fixtures in tests/fixtures/ were recorded from that released code.
+  That code builds on KellerJordan/modded-nanogpt (MIT) and karpathy/nanochat (MIT).
+
+The Polar Express coefficients are from Amsel et al., "The Polar Express: Optimal Matrix Sign Methods and Their
+Application to the Muon Algorithm" (arXiv:2505.16932). The prelude / recurrent block / coda layout follows Geiping
+et al., "Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach" (arXiv:2502.05171).
+
+Megatron-LM (https://github.com/NVIDIA/Megatron-LM) is used as a separate checkout under its own license and is
+not distributed with this repository.

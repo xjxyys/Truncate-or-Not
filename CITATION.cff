@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Truncate or Not? A Scaling Study of Looped Transformers with Truncated Backpropagation"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/xjxyys/Truncate-or-Not"
+url: "https://xjxyys.github.io/truncate-or-not/"
+authors:
+  - given-names: Xuyuan
+    family-names: Xiong
+  - given-names: Siyu
+    family-names: Chen
+  - given-names: Zihan
+    family-names: Shao
+  - given-names: Yue
+    family-names: Su
+  - given-names: Weiyang
+    family-names: Jin
+  - given-names: Ping
+    family-names: Luo
+  - given-names: Zhuoran
+    family-names: Yang
+  - given-names: Xihui
+    family-names: Liu
+preferred-citation:
+  type: article
+  title: "Truncate or Not? A Scaling Study of Looped Transformers with Truncated Backpropagation"
+  year: 2026
+  authors:
+    - given-names: Xuyuan
+      family-names: Xiong
+    - given-names: Siyu
+      family-names: Chen
+    - given-names: Zihan
+      family-names: Shao
+    - given-names: Yue
+      family-names: Su
+    - given-names: Weiyang
+      family-names: Jin
+    - given-names: Ping
+      family-names: Luo
+    - given-names: Zhuoran
+      family-names: Yang
+    - given-names: Xihui
+      family-names: Liu

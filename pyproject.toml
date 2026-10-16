@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "truncate-or-not"
+version = "1.0.0"
+description = "Truncate or Not? A Scaling Study of Looped Transformers with Truncated Backpropagation"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = [
+  "numpy>=1.24",
+  "torch>=2.5",
+  "transformers>=4.45,<6",
+  "tokenizers>=0.20",
+  "datasets>=4.2",
+  "pyarrow>=15.0",
+  "huggingface_hub>=0.24",
+  "filelock>=3.12",
+]
+
+[project.optional-dependencies]
+monitoring = ["wandb>=0.18"]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[tool.setuptools]
+license-files = ["LICENSE", "NOTICE", "third_party/*.LICENSE"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
