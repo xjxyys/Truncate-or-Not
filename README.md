@@ -10,7 +10,7 @@ Ping Luo<sup>1</sup>, Zhuoran Yang<sup>2†</sup>, Xihui Liu<sup>1†</sup>
 <sup>1</sup>MMLab@HKU · <sup>2</sup>Yale University<br>
 <sub>* Equal contribution. † Corresponding authors.</sub>
 
-**[Project Page](https://xjxyys.github.io/truncate-or-not/) · [Paper](https://xjxyys.github.io/truncate-or-not/static/paper.pdf) · arXiv (coming soon)**
+**[Project Page](https://xjxyys.github.io/truncate-or-not/) · [Paper](https://arxiv.org/pdf/2610.26030) · [arXiv](https://arxiv.org/abs/2610.26030)**
 
 **Megatron-LM training and evaluation code for looped transformers with full and truncated BPTT.**
 
@@ -99,8 +99,12 @@ If you find this work useful, please cite:
 
 ```bibtex
 @misc{xiong2026truncate,
-  title  = {{Truncate or Not? A Scaling Study of Looped Transformers with Truncated Backpropagation}},
-  author = {Xuyuan Xiong and Siyu Chen and Zihan Shao and Yue Su and Weiyang Jin and Ping Luo and Zhuoran Yang and Xihui Liu},
-  year   = {2026}
+  title         = {{Truncate or Not? A Scaling Study of Looped Transformers with Truncated Backpropagation}},
+  author        = {Xuyuan Xiong and Siyu Chen and Zihan Shao and Yue Su and Weiyang Jin and Ping Luo and Zhuoran Yang and Xihui Liu},
+  year          = {2026},
+  eprint        = {2610.26030},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2610.26030}
 }
 ```
